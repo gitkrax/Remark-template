@@ -1,0 +1,77 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+	font-family: 'Droid Serif';
+	color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz';
+	font-weight: normal;
+	text-align: center;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+/* Text alignment and styling */
+
+li { text-align: left; }
+
+blockquote {
+  background: #272822;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: justify;
+  text-justify: auto;
+  -moz-text-align-last: left;
+  text-align-last: left;
+}
+
+/* Figures and captions */
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 90%;
+	height: auto;
+}
+
+img + em {
+	display: block;
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 0.5em;
+}
+
+/* Slide styling */
+
+.default { background-color: #101010; }
+
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+
+#slide-title-slide h1 { font-size: 5em; }
+
+/* Slide content positioning */
+
+.footer-left {
+	position: fixed;
+	bottom: 1.5em;
+	left: 1.5em;
+	font-size: 0.5em;
+}
+
+.left {
+	width: 45%;
+	float: left;
+}
+
+.right {
+	width: 45%;
+	float: right;
+}
