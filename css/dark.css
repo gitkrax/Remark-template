@@ -19,7 +19,10 @@ h1, h2, h3 {
 
 /* Text alignment and styling */
 
-li { text-align: left; }
+li {
+  text-align: left;
+  line-height: 1.5em;
+}
 
 blockquote {
   background: #272822;
